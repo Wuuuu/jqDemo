@@ -4,4 +4,4 @@
 
 ### 在线演示
 
-<a href="https://simonzhangiter.github.io/VueDemo_Sell_Eleme" target=_blank>在线演示戳我</a>（请使用chrome开发者手机演示模式预览）
+<a href="https://wuuuu.github.io/tabs.html" target=_blank>在线演示戳我</a>
