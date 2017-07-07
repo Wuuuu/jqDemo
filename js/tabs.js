@@ -7,7 +7,7 @@ $('.tab-list').each(function() {
     $this.on('click', '.tab-control', function(e) {
         e.preventDefault();
         let $link = $(this),
-            id    = this.hash; // this.hash获取当前链接的标签值
+            id    = this.hash; // this.hash 获取当前链接的标签值
 
         if (id && !$link.is('.active')) {
             $panel.removeClass('active');
