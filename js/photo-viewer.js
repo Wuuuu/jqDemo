@@ -1,8 +1,8 @@
-let request;  // 存放最后请求的图片
-let $current; // 当前正在显示的图片
-let cache   = {}; // 记录已经加载图片的对象
-let $frame  = $('#photo-viewer'); // 图片的容器
-let $thumbs = $('.thumb'); // 略缩图的容器
+let request,  // 存放最后请求的图片
+    $current, // 当前正在显示的图片
+    cache   = {}, // 记录已经加载图片的对象
+    $frame  = $('#photo-viewer'), // 图片的容器
+    $thumbs = $('.thumb'); // 略缩图的容器
 
 function crossfade($img) {           
                                      
@@ -22,8 +22,8 @@ function crossfade($img) {
 }
 
 $(document).on('click', '.thumb', function(e){ 
-    var $img,                               
-        src = this.href;             
+    let $img,                               
+        src     = this.href;             
         request = src;                      
     
     e.preventDefault();                     
