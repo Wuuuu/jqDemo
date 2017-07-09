@@ -1,8 +1,8 @@
 let modal = (function () {
-    let $window  = $(window);
-    let $modal   = $('<div class="modal"/>');
-    let $content = $('<div class="modal-content"/>');
-    let $close   = $('<button role="button" class="modal-close">close</button>');
+    let $window  = $(window),
+        $modal   = $('<div class="modal"/>'),
+        $content = $('<div class="modal-content"/>'),
+        $close   = $('<button role="button" class="modal-close">close</button>');
 
     $modal.append($content, $close);
 
@@ -15,9 +15,9 @@ let modal = (function () {
         center: function() {                        
             var top  = Math.max($window.height() - $modal.outerHeight(), 0) / 2;
             var left = Math.max($window.width() - $modal.outerWidth(), 0) / 2;
-            $modal.css({                                // Set CSS for the modal
-                top:top + $window.scrollTop(),            // Center vertically
-                left:left + $window.scrollLeft()          // Center horizontally
+            $modal.css({                                
+                top:top + $window.scrollTop(),            
+                left:left + $window.scrollLeft()          
             });
     },
         open: function(settings) {
