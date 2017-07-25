@@ -6,6 +6,8 @@
 
 <a href="http://wuuuu.github.io/xxx/tabs.html" target=_blank>在线演示戳我</a>
 
+hr
+
 ## 2.模态框
 
 ### 在线演示
