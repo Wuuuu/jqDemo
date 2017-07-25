@@ -4,13 +4,16 @@
 
 ### 在线演示
 
-<a href="https://wuuuu.github.io/tabs.html" target=_blank>在线演示戳我</a>
+<a href="http://wuuuu.github.io/xxx/tabs.html" target=_blank>在线演示戳我</a>
 
 ## 2.模态框
 
 ### 在线演示
 
+<a href="http://wuuuu.github.io/xxx/modal.html" target=_blank>在线演示戳我</a>
 
 ## 3.照片查看器
 
 ### 在线演示
+
+<a href="http://wuuuu.github.io/xxx/photo-viewer.html" target=_blank>在线演示戳我</a>
