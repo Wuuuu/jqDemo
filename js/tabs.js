@@ -18,3 +18,12 @@ $('.tab-list').each(function() {
         }
     })
 })
+
+html2canvas(document.getElementById("tab-1")).then(canvas => {
+  var image = new Image();
+  image.src = canvas.toDataURL("image/png");
+  let tabOne = document.getElementsByClassName("tab-list").childNodes;
+  console.log(tabOne)
+  // tabOne.replaceChild(image, tabOne)
+  // document.body.appendChild(image)
+});
